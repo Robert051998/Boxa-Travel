@@ -1,0 +1,14 @@
+ /*For top logo position fix*/
+.header_controls{
+	margin-top:0 !important;
+	background-color:none !important;
+}
+.admin-none{
+	display: none !important;
+}
+@media (max-width: 767px) {
+	.header_controls{
+		margin-top:-50px !important;
+		background-color:transparent !important;
+		}
+}

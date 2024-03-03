@@ -1,0 +1,95 @@
+<?php
+
+return [
+
+    'check_age'             => "Oprostite, morate biti starejši od 18 let, da lahko nadaljujete",
+    'default_home_language' => "Oprostite, ni mogoče deaktivirati privzetega jezika ",
+    'default_home_currency' => "Oprostite, ni mogoče izključiti domače valute ",
+    'accepted'             => ':attribute mora biti sprejet.',
+    'active_url'           => ':attribute ni veljaven URL naslov.',
+    'after'                => ':attribute mora biti datum po :date.',
+    'after_or_equal'       => ':attribute mora biti datum must be a date after or equal to :date.',
+    'alpha'                => ':attribute mora vsebovati samo črke.',
+    'alpha_dash'           => ':attribute lahko vsebuje samo črke, številke in ločila.',
+    'alpha_num'            => ':attribute lahko vsebuje samo črke in številke.',
+    'array'                => ':attribute mora biti niz.',
+    'before'               => ':attribute mora biti datum pred :date.',
+    'before_or_equal'      => ':attribute mora biti datum pred ali enak :date.',
+    'between'              => [
+        'numeric' => 'The :attribute mora biti med :min in :max.',
+        'file'    => 'The :attribute mora biti med :min in :max kilobajtov.',
+        'string'  => 'The :attribute mora biti med :min in :max znakov.',
+        'array'   => 'The :attribute mora biti med :min in :max predmetov.',
+    ],
+    'boolean'              => ':attribute polje mora biti pravilno ali napačno.',
+    'confirmed'            => ':attribute potrditev se ne ujema.',
+    'date'                 => ':attribute ni pravilen datum.',
+    'date_format'          => ':attribute ni pravi format :format.',
+    'different'            => ':attribute in :other mora biti različen.',
+    'digits'               => ':attribute mora biti :digits številka.',
+    'digits_between'       => ':attribute mora biti med :min in :max številko.',
+    'dimensions'           => ':attribute has invalid image dimensions.',
+    'distinct'             => ':attribute polje ima podvojeno vrednost.',
+    'email'                => ':attribute mora biti veljaven e-poštni naslov.',
+    'exists'               => 'Izbran :attribute je neveljaven.',
+    'file'                 => ':attribute mora biti datoteka.',
+    'filled'               => ':attribute polje je obvezno.',
+    'image'                => ':attribute mora biti slika.',
+    'in'                   => 'Izbran :attribute je neveljaven.',
+    'in_array'             => ':attribute polje ne obstaja v :other.',
+    'integer'              => ':attribute mora biti naravno število.',
+    'ip'                   => ':attribute mora biti veljaven IP naslov.',
+    'json'                 => ':attribute mora biti veljaven JSON format.',
+    'max'                  => [
+        'numeric' => ':attribute ne sme biti večji od :max.',
+        'file'    => ':attribute ne sme biti večji od :max kilobajtov.',
+        'string'  => ':attribute ne sme biti večji od :max znakov.',
+        'array'   => ':attribute ne sme imeti več kot :max predmetov.',
+    ],
+    'mimes'                => ':attribute mora biti datoteka vrste: :values.',
+    'mimetypes'            => ':attribute mora biti datoteka vrste: :values.',
+    'min'                  => [
+        'numeric' => ':attribute mora biti vsaj :min.',
+        'file'    => ':attribute mora biti vsaj :min kilobajtov.',
+        'string'  => ':attribute mora biti vsaj :min znakov.',
+        'array'   => ':attribute mora imeti vsaj :min predmetov.',
+    ],
+    'not_in'               => 'Izbrani :attribute je neveljaven.',
+    'numeric'              => ':attribute mora biti število.',
+    'present'              => ':attribute polje je obvezno.',
+    'regex'                => ':attribute format ni veljaven.',
+    'required'             => ':attribute polje je obvezno.',
+    'required_if'          => ':attribute polje je obvezno ko :other je :value.',
+    'required_unless'      => ':attribute polje je obvezno, razen ko :other je :values.',
+    'required_with'        => ':attribute polje je obvezno, ko :values presega.',
+    'required_with_all'    => ':attribute polje je obvezno, ko :values presega.',
+    'required_without'     => ':attribute polje je obvezno, ko :values ne presega.',
+    'required_without_all' => ':attribute polje je obvezno, ko nobena od :values ne presega.',
+    'same'                 => ':attribute in :other morata ujemati.',
+    'size'                 => [
+        'numeric' => ':attribute mora biti :size.',
+        'file'    => ':attribute mora biti :size kilobajtov.',
+        'string'  => ':attribute mora biti :size znakov.',
+        'array'   => ':attribute mora vsebovati :size predmetov.',
+    ],
+    'string'               => ':attribute mora biti niz.',
+    'timezone'             => ':attribute mora biti veljaven časovni pas.',
+    'unique'               => ':attribute je že zavzeto.',
+    'uploaded'             => ':attribute napaka pri nalaganju.',
+    'url'                  => ':attribute format ni veljaven.',
+
+
+    'custom' => [
+        'attribute-name' => [
+            'rule-name' => 'custom-message',
+        ],
+    ],
+
+   /* 'custom' => [
+        'birthday_day' => [
+            'check_age' => 'Testno sporočilo',
+        ],
+    ],*/
+
+    'attributes' => [],
+];
